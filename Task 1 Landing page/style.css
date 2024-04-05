@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+#main {
+    width: 100%;
+    min-height: 100vh;
+}
+.top {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wtc3?ver=79e5);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+.top-heading {
+    color: #fff;
+}
+.top-overlay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+}
+.text, .icons {
+    font-weight: 600;
+    font-size: 2vw;
+}
+.image {
+    background-image: url(https://wallpapertag.com/wallpaper/full/6/c/1/639425-full-size-bing-images-desktop-wallpaper-1920x1200-notebook.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    border-radius: 2px;
+}
+.rtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50vh;
+
+}
+h1 {
+    color: black;
+    font-size: 5vw;
+}
+.b1, .b2, .b3 {
+    width: 33vw;
+    height: auto;
+}
+.b1 {
+    background-image: url(https://store-images.s-microsoft.com/image/apps.39873.14451776357165671.f5eb53ec-970d-496a-ba82-d5f797dc9def.dfe0113d-3449-4bd6-96e6-7cd323264517?mode=scale&q=90&h=1080&w=1920);
+    background-size: cover;
+    background-position: center;
+}
+.b1, h1 {
+    text-align: center;
+    padding: 30px;
+}
+.b2 {
+    display: flex;
+    flex-direction: column;
+}
+.up {
+    background-image: url(https://th.bing.com/th/id/OIP.ZTkLJlDPBIawkLufY2wM9wHaEo?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+.down {
+    background-image: url(https://th.bing.com/th/id/OIP.CvMAeJSHI_WeUIJD8x32QAHaEZ?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+.b3 {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(https://www.desktopbackground.org/download/800x600/2015/03/26/923345_fantastic-space-view-of-earth-in-8k-resolution-hd-desktop_1366x768_h.jpg);
+}
+@media (max-width: 700px) {
+    .top-overlay {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.219);
+    }
+    .image {
+        height: 140px;
+    
+    }
+    .bottom {
+        text-align: left;
+    }
+}
